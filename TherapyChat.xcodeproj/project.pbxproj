@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002F72BC2073E916000C2F94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F72BB2073E916000C2F94 /* AppDelegate.swift */; };
+		002F72BE2073E916000C2F94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F72BD2073E916000C2F94 /* ViewController.swift */; };
+		002F72C12073E916000C2F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002F72BF2073E916000C2F94 /* Main.storyboard */; };
+		002F72C32073E916000C2F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002F72C22073E916000C2F94 /* Assets.xcassets */; };
+		002F72C62073E916000C2F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002F72C42073E916000C2F94 /* LaunchScreen.storyboard */; };
+		002F72D12073E916000C2F94 /* TherapyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F72D02073E916000C2F94 /* TherapyChatTests.swift */; };
+		002F72DC2073E916000C2F94 /* TherapyChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002F72DB2073E916000C2F94 /* TherapyChatUITests.swift */; };
+		002F72EA2073E991000C2F94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 002F72E92073E991000C2F94 /* GoogleService-Info.plist */; };
+		00B697BE2073F8C300EAFF16 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 00B697BC2073F8C300EAFF16 /* ProgressHUD.bundle */; };
+		00B697BF2073F8C300EAFF16 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B697BD2073F8C300EAFF16 /* ProgressHUD.m */; };
+		00B697C62073F97400EAFF16 /* RNCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B697C52073F97400EAFF16 /* RNCryptor.swift */; };
+		4A1CF82415755FA1D366A8D7 /* libPods-TherapyChatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 402E250B17D766069171341F /* libPods-TherapyChatTests.a */; };
+		69A84E9B45625D6D3A550E90 /* libPods-TherapyChatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BF0ED415026BBB7EC3268B /* libPods-TherapyChatUITests.a */; };
+		EF5ABA835C7D67780634BE3D /* libPods-TherapyChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7737F803837FAD99607E1A /* libPods-TherapyChat.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002F72CD2073E916000C2F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002F72B02073E916000C2F94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002F72B72073E916000C2F94;
+			remoteInfo = TherapyChat;
+		};
+		002F72D82073E916000C2F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002F72B02073E916000C2F94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002F72B72073E916000C2F94;
+			remoteInfo = TherapyChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002F72B82073E916000C2F94 /* TherapyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TherapyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		002F72BB2073E916000C2F94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		002F72BD2073E916000C2F94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		002F72C02073E916000C2F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		002F72C22073E916000C2F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		002F72C52073E916000C2F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		002F72C72073E916000C2F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002F72CC2073E916000C2F94 /* TherapyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TherapyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		002F72D02073E916000C2F94 /* TherapyChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyChatTests.swift; sourceTree = "<group>"; };
+		002F72D22073E916000C2F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002F72D72073E916000C2F94 /* TherapyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TherapyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		002F72DB2073E916000C2F94 /* TherapyChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyChatUITests.swift; sourceTree = "<group>"; };
+		002F72DD2073E916000C2F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002F72E92073E991000C2F94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00B697B72073F86000EAFF16 /* TherapyChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TherapyChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		00B697BB2073F8C300EAFF16 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		00B697BC2073F8C300EAFF16 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		00B697BD2073F8C300EAFF16 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		00B697C42073F96000EAFF16 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		00B697C52073F97400EAFF16 /* RNCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCryptor.swift; sourceTree = "<group>"; };
+		3D7737F803837FAD99607E1A /* libPods-TherapyChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TherapyChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		402E250B17D766069171341F /* libPods-TherapyChatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TherapyChatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734250305DE92A939F0D377E /* Pods-TherapyChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TherapyChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TherapyChatUITests/Pods-TherapyChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		741FE5AE819A22AA4BFD8B06 /* Pods-TherapyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TherapyChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TherapyChat/Pods-TherapyChat.debug.xcconfig"; sourceTree = "<group>"; };
+		8533FB0EC40B96FB24F2D5C7 /* Pods-TherapyChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TherapyChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TherapyChatTests/Pods-TherapyChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9BF0ED415026BBB7EC3268B /* libPods-TherapyChatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TherapyChatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEAE93CB6719194EB7D2F6F /* Pods-TherapyChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TherapyChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TherapyChatTests/Pods-TherapyChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD3296C54A504DAFA867D1B3 /* Pods-TherapyChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TherapyChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TherapyChatUITests/Pods-TherapyChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F1B3DC57BED9825A6F7CCC4E /* Pods-TherapyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TherapyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-TherapyChat/Pods-TherapyChat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002F72B52073E916000C2F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5ABA835C7D67780634BE3D /* libPods-TherapyChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002F72C92073E916000C2F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1CF82415755FA1D366A8D7 /* libPods-TherapyChatTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002F72D42073E916000C2F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A84E9B45625D6D3A550E90 /* libPods-TherapyChatUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002F72AF2073E916000C2F94 = {
+			isa = PBXGroup;
+			children = (
+				002F72BA2073E916000C2F94 /* TherapyChat */,
+				002F72CF2073E916000C2F94 /* TherapyChatTests */,
+				002F72DA2073E916000C2F94 /* TherapyChatUITests */,
+				002F72B92073E916000C2F94 /* Products */,
+				FBD3B318F5ED87D102CF1519 /* Pods */,
+				17D4DCA96E5F2834201B1950 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		002F72B92073E916000C2F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002F72B82073E916000C2F94 /* TherapyChat.app */,
+				002F72CC2073E916000C2F94 /* TherapyChatTests.xctest */,
+				002F72D72073E916000C2F94 /* TherapyChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		002F72BA2073E916000C2F94 /* TherapyChat */ = {
+			isa = PBXGroup;
+			children = (
+				00B697C02073F8DD00EAFF16 /* Encryption */,
+				00B697BA2073F8C300EAFF16 /* ProgressHUD */,
+				002F72BB2073E916000C2F94 /* AppDelegate.swift */,
+				002F72BD2073E916000C2F94 /* ViewController.swift */,
+				002F72BF2073E916000C2F94 /* Main.storyboard */,
+				002F72C22073E916000C2F94 /* Assets.xcassets */,
+				002F72C42073E916000C2F94 /* LaunchScreen.storyboard */,
+				002F72C72073E916000C2F94 /* Info.plist */,
+				002F72E92073E991000C2F94 /* GoogleService-Info.plist */,
+				00B697B72073F86000EAFF16 /* TherapyChat-Bridging-Header.h */,
+			);
+			path = TherapyChat;
+			sourceTree = "<group>";
+		};
+		002F72CF2073E916000C2F94 /* TherapyChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				002F72D02073E916000C2F94 /* TherapyChatTests.swift */,
+				002F72D22073E916000C2F94 /* Info.plist */,
+			);
+			path = TherapyChatTests;
+			sourceTree = "<group>";
+		};
+		002F72DA2073E916000C2F94 /* TherapyChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				002F72DB2073E916000C2F94 /* TherapyChatUITests.swift */,
+				002F72DD2073E916000C2F94 /* Info.plist */,
+			);
+			path = TherapyChatUITests;
+			sourceTree = "<group>";
+		};
+		00B697BA2073F8C300EAFF16 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				00B697BB2073F8C300EAFF16 /* ProgressHUD.h */,
+				00B697BC2073F8C300EAFF16 /* ProgressHUD.bundle */,
+				00B697BD2073F8C300EAFF16 /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		00B697C02073F8DD00EAFF16 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				00B697C52073F97400EAFF16 /* RNCryptor.swift */,
+				00B697C42073F96000EAFF16 /* RNCryptor.h */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		17D4DCA96E5F2834201B1950 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D7737F803837FAD99607E1A /* libPods-TherapyChat.a */,
+				402E250B17D766069171341F /* libPods-TherapyChatTests.a */,
+				C9BF0ED415026BBB7EC3268B /* libPods-TherapyChatUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBD3B318F5ED87D102CF1519 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				741FE5AE819A22AA4BFD8B06 /* Pods-TherapyChat.debug.xcconfig */,
+				F1B3DC57BED9825A6F7CCC4E /* Pods-TherapyChat.release.xcconfig */,
+				8533FB0EC40B96FB24F2D5C7 /* Pods-TherapyChatTests.debug.xcconfig */,
+				CEEAE93CB6719194EB7D2F6F /* Pods-TherapyChatTests.release.xcconfig */,
+				734250305DE92A939F0D377E /* Pods-TherapyChatUITests.debug.xcconfig */,
+				DD3296C54A504DAFA867D1B3 /* Pods-TherapyChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		002F72B72073E916000C2F94 /* TherapyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002F72E02073E916000C2F94 /* Build configuration list for PBXNativeTarget "TherapyChat" */;
+			buildPhases = (
+				C8AE4E89A1C12535278A1663 /* [CP] Check Pods Manifest.lock */,
+				002F72B42073E916000C2F94 /* Sources */,
+				002F72B52073E916000C2F94 /* Frameworks */,
+				002F72B62073E916000C2F94 /* Resources */,
+				6CA6C691250FE7008F61114A /* [CP] Embed Pods Frameworks */,
+				B92A573FA85972F3C8020E54 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TherapyChat;
+			productName = TherapyChat;
+			productReference = 002F72B82073E916000C2F94 /* TherapyChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		002F72CB2073E916000C2F94 /* TherapyChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002F72E32073E916000C2F94 /* Build configuration list for PBXNativeTarget "TherapyChatTests" */;
+			buildPhases = (
+				B4883805C857D62D57B384DD /* [CP] Check Pods Manifest.lock */,
+				002F72C82073E916000C2F94 /* Sources */,
+				002F72C92073E916000C2F94 /* Frameworks */,
+				002F72CA2073E916000C2F94 /* Resources */,
+				35C51F2903D382B536AF28BD /* [CP] Embed Pods Frameworks */,
+				8747D8011CFB413AC23CDD8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002F72CE2073E916000C2F94 /* PBXTargetDependency */,
+			);
+			name = TherapyChatTests;
+			productName = TherapyChatTests;
+			productReference = 002F72CC2073E916000C2F94 /* TherapyChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		002F72D62073E916000C2F94 /* TherapyChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002F72E62073E916000C2F94 /* Build configuration list for PBXNativeTarget "TherapyChatUITests" */;
+			buildPhases = (
+				BD4E4C66DFCA2EF23FA378C8 /* [CP] Check Pods Manifest.lock */,
+				002F72D32073E916000C2F94 /* Sources */,
+				002F72D42073E916000C2F94 /* Frameworks */,
+				002F72D52073E916000C2F94 /* Resources */,
+				43F4632ECE8FE6AC6E01CAF4 /* [CP] Embed Pods Frameworks */,
+				C3E57E28AED6A476FA81E26E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002F72D92073E916000C2F94 /* PBXTargetDependency */,
+			);
+			name = TherapyChatUITests;
+			productName = TherapyChatUITests;
+			productReference = 002F72D72073E916000C2F94 /* TherapyChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002F72B02073E916000C2F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = consios;
+				TargetAttributes = {
+					002F72B72073E916000C2F94 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					002F72CB2073E916000C2F94 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 002F72B72073E916000C2F94;
+					};
+					002F72D62073E916000C2F94 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 002F72B72073E916000C2F94;
+					};
+				};
+			};
+			buildConfigurationList = 002F72B32073E916000C2F94 /* Build configuration list for PBXProject "TherapyChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 002F72AF2073E916000C2F94;
+			productRefGroup = 002F72B92073E916000C2F94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002F72B72073E916000C2F94 /* TherapyChat */,
+				002F72CB2073E916000C2F94 /* TherapyChatTests */,
+				002F72D62073E916000C2F94 /* TherapyChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		002F72B62073E916000C2F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002F72C62073E916000C2F94 /* LaunchScreen.storyboard in Resources */,
+				002F72EA2073E991000C2F94 /* GoogleService-Info.plist in Resources */,
+				002F72C32073E916000C2F94 /* Assets.xcassets in Resources */,
+				00B697BE2073F8C300EAFF16 /* ProgressHUD.bundle in Resources */,
+				002F72C12073E916000C2F94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002F72CA2073E916000C2F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002F72D52073E916000C2F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35C51F2903D382B536AF28BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TherapyChatTests/Pods-TherapyChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43F4632ECE8FE6AC6E01CAF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TherapyChatUITests/Pods-TherapyChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CA6C691250FE7008F61114A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TherapyChat/Pods-TherapyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8747D8011CFB413AC23CDD8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TherapyChatTests/Pods-TherapyChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4883805C857D62D57B384DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TherapyChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B92A573FA85972F3C8020E54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TherapyChat/Pods-TherapyChat-resources.sh",
+				"${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPhotoBrowser.bundle",
+				"${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPBLocalizations.bundle",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/audio_record.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/audio_record@2x.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/audio_record@3x.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/microphone_access.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/microphone_access@2x.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/microphone_access@3x.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/scissor.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/scissor@2x.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/scissor@3x.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/stop_playing.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/stop_playing@2x.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/stop_playing@3x.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/stop_recording.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/stop_recording@2x.png",
+				"${PODS_ROOT}/IQAudioRecorderController/IQAudioRecorderController/Resources/stop_recording@3x.png",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Assets/JSQMessagesAssets.bundle",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Controllers/JSQMessagesViewController.xib",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellIncoming.xib",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellOutgoing.xib",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.xib",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesToolbarContentView.xib",
+				"${PODS_ROOT}/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesTypingIndicatorFooterView.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDMPhotoBrowser.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDMPBLocalizations.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/audio_record.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/audio_record@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/audio_record@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/microphone_access.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/microphone_access@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/microphone_access@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/scissor.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/scissor@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/scissor@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/stop_playing.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/stop_playing@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/stop_playing@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/stop_recording.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/stop_recording@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/stop_recording@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesAssets.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesCollectionViewCellIncoming.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesCollectionViewCellOutgoing.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesLoadEarlierHeaderView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesToolbarContentView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSQMessagesTypingIndicatorFooterView.nib",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TherapyChat/Pods-TherapyChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD4E4C66DFCA2EF23FA378C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TherapyChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E57E28AED6A476FA81E26E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TherapyChatUITests/Pods-TherapyChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AE4E89A1C12535278A1663 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TherapyChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002F72B42073E916000C2F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B697BF2073F8C300EAFF16 /* ProgressHUD.m in Sources */,
+				00B697C62073F97400EAFF16 /* RNCryptor.swift in Sources */,
+				002F72BE2073E916000C2F94 /* ViewController.swift in Sources */,
+				002F72BC2073E916000C2F94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002F72C82073E916000C2F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002F72D12073E916000C2F94 /* TherapyChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002F72D32073E916000C2F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002F72DC2073E916000C2F94 /* TherapyChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002F72CE2073E916000C2F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002F72B72073E916000C2F94 /* TherapyChat */;
+			targetProxy = 002F72CD2073E916000C2F94 /* PBXContainerItemProxy */;
+		};
+		002F72D92073E916000C2F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002F72B72073E916000C2F94 /* TherapyChat */;
+			targetProxy = 002F72D82073E916000C2F94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		002F72BF2073E916000C2F94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002F72C02073E916000C2F94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		002F72C42073E916000C2F94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002F72C52073E916000C2F94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		002F72DE2073E916000C2F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		002F72DF2073E916000C2F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		002F72E12073E916000C2F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741FE5AE819A22AA4BFD8B06 /* Pods-TherapyChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39E2FVXES9;
+				INFOPLIST_FILE = TherapyChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.consios.TherapyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TherapyChat/TherapyChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		002F72E22073E916000C2F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B3DC57BED9825A6F7CCC4E /* Pods-TherapyChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39E2FVXES9;
+				INFOPLIST_FILE = TherapyChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.consios.TherapyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TherapyChat/TherapyChat-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		002F72E42073E916000C2F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8533FB0EC40B96FB24F2D5C7 /* Pods-TherapyChatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39E2FVXES9;
+				INFOPLIST_FILE = TherapyChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.consios.TherapyChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TherapyChat.app/TherapyChat";
+			};
+			name = Debug;
+		};
+		002F72E52073E916000C2F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEEAE93CB6719194EB7D2F6F /* Pods-TherapyChatTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39E2FVXES9;
+				INFOPLIST_FILE = TherapyChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.consios.TherapyChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TherapyChat.app/TherapyChat";
+			};
+			name = Release;
+		};
+		002F72E72073E916000C2F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734250305DE92A939F0D377E /* Pods-TherapyChatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39E2FVXES9;
+				INFOPLIST_FILE = TherapyChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.consios.TherapyChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TherapyChat;
+			};
+			name = Debug;
+		};
+		002F72E82073E916000C2F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3296C54A504DAFA867D1B3 /* Pods-TherapyChatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39E2FVXES9;
+				INFOPLIST_FILE = TherapyChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.consios.TherapyChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TherapyChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002F72B32073E916000C2F94 /* Build configuration list for PBXProject "TherapyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002F72DE2073E916000C2F94 /* Debug */,
+				002F72DF2073E916000C2F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002F72E02073E916000C2F94 /* Build configuration list for PBXNativeTarget "TherapyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002F72E12073E916000C2F94 /* Debug */,
+				002F72E22073E916000C2F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002F72E32073E916000C2F94 /* Build configuration list for PBXNativeTarget "TherapyChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002F72E42073E916000C2F94 /* Debug */,
+				002F72E52073E916000C2F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002F72E62073E916000C2F94 /* Build configuration list for PBXNativeTarget "TherapyChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002F72E72073E916000C2F94 /* Debug */,
+				002F72E82073E916000C2F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002F72B02073E916000C2F94 /* Project object */;
+}

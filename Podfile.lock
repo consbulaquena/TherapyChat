@@ -1,0 +1,75 @@
+PODS:
+  - Backendless (3.0.44)
+  - DACircularProgress (2.3.1)
+  - Firebase/Core (3.11.1):
+    - FirebaseAnalytics (= 3.6.0)
+    - FirebaseCore (= 3.4.7)
+  - Firebase/Database (3.11.1):
+    - Firebase/Core
+    - FirebaseDatabase (= 3.1.1)
+  - FirebaseAnalytics (3.6.0):
+    - FirebaseCore (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.4.7):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (3.1.1):
+    - FirebaseAnalytics (~> 3.5)
+  - FirebaseInstanceID (1.0.8)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - IDMPhotoBrowser (1.10.1):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - IQAudioRecorderController (1.2.0):
+    - SCSiriWaveformView
+  - JSQMessagesViewController (7.3.3):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - pop (1.0.9)
+  - SCSiriWaveformView (1.0.3)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SinchRTC (3.9.8)
+
+DEPENDENCIES:
+  - Backendless
+  - Firebase/Database
+  - IDMPhotoBrowser
+  - IQAudioRecorderController
+  - JSQMessagesViewController (= 7.3.3)
+  - SinchRTC
+
+SPEC CHECKSUMS:
+  Backendless: bd77ad90cbd16fbd85fda03b3659b46a2c8f3179
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  Firebase: 53b2343db1ebfa3eb16bdb4318b8bb65360b2220
+  FirebaseAnalytics: 9c67af0ebeb8d2146c9b4ea2616439affa947b58
+  FirebaseCore: 46afaf2c2e0419ea7d3acfb08cf26a461a75fe85
+  FirebaseDatabase: 6de92187481ff0e8e124064f21742e95ee883b02
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  IDMPhotoBrowser: 379a8bfcad613356e4b478cb53561bdac6c6f92e
+  IQAudioRecorderController: 1d46d99330cb2c9381568665d123cf435460a43e
+  JSQMessagesViewController: 0ee3f80237268192a3e8337fd0d787f1a1bf5a7a
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SCSiriWaveformView: b8b2756af42addcd31900c3945f24edafefb5395
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SinchRTC: 9dacfd09c2ccbb591ebf9bb22619b8308a6c038c
+
+PODFILE CHECKSUM: c6c9019ac60a7e3e85558872194b08a4e0d862f6
+
+COCOAPODS: 1.4.0
