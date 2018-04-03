@@ -3,6 +3,8 @@
 [![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)]() [![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg)]()
 
  iOS Chat app, photo/ video and realtime chat conversations.
+ 
+<b>Note: Did not include the POD file folder which contains 100+ MB size, GitHub does not allow.</b>
 
 ![alt tag]()
 
