@@ -4,7 +4,7 @@
 
  iOS Chat app, photo/ video and realtime chat conversations.
  
-<b>Note: Did not include the POD files which contains 100+ MB size, GitHub does not allow.</b>
+<b>Note: Does not include the Podfile which contains 100+ MB large files GitHub does not allow.</b>
 
 ![alt tag]()
 
