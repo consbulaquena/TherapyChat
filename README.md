@@ -1,4 +1,4 @@
-# TherapyChat
+![alt tag](https://github.com/consbulaquena/TherapyChat/blob/master/logo-therapychat-01.png?raw=true)
 
 [![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)]() [![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg)]()
 
@@ -9,9 +9,16 @@
 ![alt tag]()
 
 ### Features
-<ul><li></li>
-<li></li>
-<li>Access to iPhone's camera </li>
+<ul>
+<li>Login with Email</li>
+<li>Sending text messages</li>
+<li>Sending pictures</li>
+<li>Sending videos</li>
+<li>Audio call (in-app audio calling over data connection)</li>
+<li>Sending current location</li>
+<li>Encryption</li>
+<li>Push notification support</li>
+<li>Firebase backend (full realtime actions)</li>
 <li>Deployment target: iOS 11.2+</li>
 <li>Supported devices: iPhone 5s, SE, 6, 6 Plus, 6s, 6s Plus, 7, 7 Plus, 8, 8 Plus, iPhone X </li>
 </ul>
