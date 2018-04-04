@@ -8,11 +8,47 @@
 
 import UIKit
 
+@IBDesignable extension UIButton {
+    
+    @IBInspectable var borderWidth: CGFloat {
+        set {
+            layer.borderWidth = newValue
+        }
+        get {
+            return layer.borderWidth
+        }
+    }
+    
+    @IBInspectable var cornerRadius: CGFloat {
+        set {
+            layer.cornerRadius = newValue
+        }
+        get {
+            return layer.cornerRadius
+        }
+    }
+    
+    @IBInspectable var borderColor: UIColor? {
+        set {
+            guard let uiColor = newValue else { return }
+            layer.borderColor = uiColor.cgColor
+        }
+        get {
+            guard let color = layer.borderColor else { return nil }
+            return UIColor(cgColor: color)
+        }
+    }
+}
+
 class SignInViewController: UIViewController {
 
     @IBOutlet var emailTextField: UITextField!
     
     @IBOutlet var passwordTextField: UITextField!
+    
+    @IBOutlet var SignInButton: UIButton!
+    
+    @IBOutlet weak var SignUp_Outlet: UIButton!
     
     
     override func viewDidLoad() {
@@ -27,14 +63,19 @@ class SignInViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func registerButton_TouchUp(_ sender: Any) {
+        
     }
-    */
+    // Action Login Button
+    @IBAction func logInButton_TouchUp(_ sender: Any) {
+        if emailTextField.text != "" && passwordTextField.text != "" {
+        
+        
+        
+        } else {
+           ProgressHUD.showError("Email and Password cannot be empty")
+            
+        }
 
+}
 }
