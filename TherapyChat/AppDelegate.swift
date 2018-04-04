@@ -7,15 +7,25 @@
 //
 
 import UIKit
+import CoreLocation
+import Firebase
+import FirebaseDatabase
+import NotificationCenter
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate {
 
     var window: UIWindow?
 
+    var LocationManager: CLLocationManager?
+    var coordinates: CLLocationCoordinate2D?
+    
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        
+        
         return true
     }
 
