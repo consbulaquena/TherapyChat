@@ -11,11 +11,12 @@ Get support one-on-one with a therapist who can talk with you about your struggl
 
 ### Features
 <ul>
-<li>Login with Email</li>
 <li>Sending text messages</li>
 <li>Sending pictures</li>
 <li>Sending videos</li>
 <li>Audio call (in-app audio calling over data connection)</li>
+<li>Login Anonymously</li>
+<li>Login with Email</li>
 <li>Sending current location</li>
 <li>Encryption</li>
 <li>Push notification support</li>
