@@ -70,12 +70,33 @@ class SignInViewController: UIViewController {
     @IBAction func logInButton_TouchUp(_ sender: Any) {
         if emailTextField.text != "" && passwordTextField.text != "" {
         
-        
+            ProgressHUD.show("Logging in...", interaction: false)
+            
+        loginUser(email: emailTextField.text!, password: passwordTextField.text!)
         
         } else {
-           ProgressHUD.showError("Email and Password cannot be empty")
+           ProgressHUD.show("Email and Password cannot be empty.")
             
         }
+    }
+        //if email function not emptyu
+        func loginUser(email: String, password: String) {
+            ProgressHUD.dismiss()
+            
+            backendless!.userService.login(email, password: password, response: { (user) in
+                
+            self.emailTextField.text = nil
+            self.passwordTextField.text = nil
+            self.view.endEditing(false)
+                
+            //go to app
+                
+            
+                
+            }) { (fault) in
+                ProgressHUD.showError("Couldn't login: \(fault!.detail)")
+                
+        
+}
+}
 
-}
-}
