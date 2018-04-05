@@ -2,10 +2,11 @@
 
 [![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)]() [![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg)]()
 
- iOS Chat app, photo/ video and realtime chat conversations.
- 
-<b>Note: Does not include the Podfile which contains 100+ MB large files GitHub does not allow.</b>
+iOS Chat app, photo/ video and realtime chat conversations.
 
+<b>TherapyChat</b> is an app that connects therapist to individuals who need help.
+Get support one-on-one with a therapist who can talk with you about your struggles from anxiety to depression, anonymous chat is available for individuals who are shy. 
+ 
 ![alt tag]()
 
 ### Features
@@ -22,6 +23,8 @@
 <li>Deployment target: iOS 11.2+</li>
 <li>Supported devices: iPhone 5s, SE, 6, 6 Plus, 6s, 6s Plus, 7, 7 Plus, 8, 8 Plus, iPhone X </li>
 </ul>
+
+<b>Note: Does not include the Podfile which contains 100+ MB large files GitHub does not allow.</b>
 
 ### Libraries Used
 <ul>
