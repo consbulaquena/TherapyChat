@@ -69,6 +69,7 @@ class SignUpViewController: UIViewController {
         ProgressHUD.dismiss()
         backendless!.userService.registering(newUser, response: { (registeredUser) in
             //Login User when registered
+            self.loginUser(email: email, password: password)
             
             
         }) { (fault) in
@@ -78,15 +79,17 @@ class SignUpViewController: UIViewController {
 }
     //Login Function its called above
     func loginUser(email: String, password: String) {
-        ProgressHUD.dismiss()
         
         backendless!.userService.login(email, password: password, response: { (user) in
             
             self.emailTextField.text = nil
             self.passwordTextField.text = nil
             self.view.endEditing(false)
+
             
-            //go to app
+     //once user login go to app
+            let vc = UIStoryboard(name: "Main", bundle: nil)
+            
             
             
             
