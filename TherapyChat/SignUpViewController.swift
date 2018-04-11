@@ -88,8 +88,11 @@ class SignUpViewController: UIViewController {
 
             
      //once user login go to app
-            let vc = UIStoryboard(name: "Main", bundle: nil)
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RecentVC") as! UITabBarController
             
+            vc.selectedIndex = 0
+            
+            self.present(vc, animated: true, completion: nil)
             
             
             
