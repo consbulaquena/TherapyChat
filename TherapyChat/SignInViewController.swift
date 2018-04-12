@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 @IBDesignable extension UIButton {
     
     @IBInspectable var borderWidth: CGFloat {
@@ -51,12 +52,18 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var SignUp_Outlet: UIButton!
     
     
+    //if login take straight to application, before viewdid load()
+    override func viewDidAppear(_ animated: Bool) {
+        self.navigationController
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
+
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -75,11 +82,11 @@ class SignInViewController: UIViewController {
         loginUser(email: emailTextField.text!, password: passwordTextField.text!)
         
         } else {
-           ProgressHUD.show("Email and Password cannot be empty.")
+           ProgressHUD.showError("Email and Password cannot be empty.")
             
         }
     }
-        //if email function not emptyu
+        //if email function not empty
         func loginUser(email: String, password: String) {
             ProgressHUD.dismiss()
             
@@ -94,9 +101,10 @@ class SignInViewController: UIViewController {
             
                 
             }) { (fault) in
-                ProgressHUD.showError("Couldn't login: \(fault!.detail)")
+                ProgressHUD.showError("Couldn't login")
                 
         
-}
-}
+    }
+    }
 
+}
