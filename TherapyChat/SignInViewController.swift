@@ -47,16 +47,36 @@ class SignInViewController: UIViewController {
     
     @IBOutlet var passwordTextField: UITextField!
     
+    
+    @IBOutlet weak var ChatAnon: UIButton!
+    
     @IBOutlet var SignInButton: UIButton!
     
-    @IBOutlet weak var SignUp_Outlet: UIButton!
     
     
     //if login take straight to application, before viewdid load()
-    override func viewDidAppear(_ animated: Bool) {
-        self.navigationController
-    }
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = true
+        
+        //tell backendless keep user login
+        backendless!.userService.setStayLoggedIn(true)
     
+        if backendless!.userService.currentUser != nil {
+            
+            //Take auto to recentVC
+            DispatchQueue.main.async {
+                
+                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RecentVC") as! UITabBarController
+                
+                vc.selectedIndex = 0
+                
+                self.present(vc, animated: true, completion: nil)
+                
+                
+            }
+            }
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -69,10 +89,15 @@ class SignInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
 
-    @IBAction func registerButton_TouchUp(_ sender: Any) {
-        
+    @IBAction func createBtn(_ sender: UIButton) {
     }
+    
+
+    
+    
     // Action Login Button
     @IBAction func logInButton_TouchUp(_ sender: Any) {
         if emailTextField.text != "" && passwordTextField.text != "" {
@@ -97,8 +122,13 @@ class SignInViewController: UIViewController {
             self.view.endEditing(false)
                 
             //go to app
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RecentVC") as! UITabBarController
                 
-            
+            vc.selectedIndex = 0
+                
+            self.present(vc, animated: true, completion: nil)
+                
+                
                 
             }) { (fault) in
                 ProgressHUD.showError("Couldn't login")
