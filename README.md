@@ -5,7 +5,7 @@
 iOS Chat app, photo/ video and realtime chat conversations.
 
 <b>TherapyChat</b> is an app that connects therapist to individuals who need help.
-Get support one-on-one with a therapist who can talk with you about your struggles from anxiety to depression, anonymous chat is available for individuals who are shy. 
+Get support one-on-one with a therapist who can talk with you about your struggles from anxiety to depression, anonymous chat is available for individuals who are shy in asking for help. 
  
 ![alt tag]()
 
