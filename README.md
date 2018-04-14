@@ -29,7 +29,6 @@ Get support one-on-one with a therapist who can talk with you about your struggl
 
 ### Libraries Used
 <ul>
-<li><a href="https://backendless.com"> Backendless</a> as mobile cloud backend</li>
 <li> <a href="https://firebase.google.com/docs/database"> Firebase Database</a> as database to save chat messages</li>
 <li>JSQMessagesViewController as messages UI library</li>
 <li>IQAudioRecorderController to record audio</li>
