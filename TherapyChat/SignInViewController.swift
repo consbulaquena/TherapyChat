@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 
 @IBDesignable extension UIButton {
@@ -58,48 +59,45 @@ class SignInViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.isNavigationBarHidden = true
         
-        //tell backendless keep user login
-        backendless!.userService.setStayLoggedIn(true)
-    
-        if backendless!.userService.currentUser != nil {
-            
-            //Take auto to recentVC
-            DispatchQueue.main.async {
-                
-                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RecentVC") as! UITabBarController
-                
-                vc.selectedIndex = 0
-                
-                self.present(vc, animated: true, completion: nil)
-                
-                
-            }
-            }
-    }
+   
+        //Put Firebase Auth login code here
+        //Take auto to recentVC
+        
+//            DispatchQueue.main.async {
+//
+//                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RecentVC") as! UITabBarController
+//
+//                vc.selectedIndex = 0
+//
+//                self.present(vc, animated: true, completion: nil)
+//
+//            }
+   }
+        
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // Dispose of any resources th
+
     }
     
     
     
 
-    @IBAction func createBtn(_ sender: UIButton) {
-    }
+
     
 
     
+    @IBAction func logInButton_TouchUpInside(_ sender: Any) {
     
     // Action Login Button
-    @IBAction func logInButton_TouchUp(_ sender: Any) {
+
         if emailTextField.text != "" && passwordTextField.text != "" {
         
             ProgressHUD.show("Logging in...", interaction: false)
@@ -114,9 +112,7 @@ class SignInViewController: UIViewController {
         //if email function not empty
         func loginUser(email: String, password: String) {
             ProgressHUD.dismiss()
-            
-            backendless!.userService.login(email, password: password, response: { (user) in
-                
+
             self.emailTextField.text = nil
             self.passwordTextField.text = nil
             self.view.endEditing(false)
@@ -128,13 +124,10 @@ class SignInViewController: UIViewController {
                 
             self.present(vc, animated: true, completion: nil)
                 
-                
-                
-            }) { (fault) in
-                ProgressHUD.showError("Couldn't login")
+            
                 
         
     }
-    }
-
 }
+
+
